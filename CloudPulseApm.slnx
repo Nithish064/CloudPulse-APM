@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src\Apm.Shared\Apm.Shared.csproj" />
+  <Project Path="src\Apm.IngestionService\Apm.IngestionService.csproj" />
+  <Project Path="src\Apm.AnomalyEngineService\Apm.AnomalyEngineService.csproj" />
+  <Project Path="src\Apm.QueryService\Apm.QueryService.csproj" />
+  <Project Path="src\Apm.Gateway\Apm.Gateway.csproj" />
+</Solution>

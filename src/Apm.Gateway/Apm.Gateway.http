@@ -1,0 +1,6 @@
+@Apm.Gateway_HostAddress = http://localhost:5053
+
+GET {{Apm.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

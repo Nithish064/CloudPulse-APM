@@ -1,0 +1,6 @@
+@Apm.QueryService_HostAddress = http://localhost:5033
+
+GET {{Apm.QueryService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+@Apm.AnomalyEngineService_HostAddress = http://localhost:5246
+
+GET {{Apm.AnomalyEngineService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

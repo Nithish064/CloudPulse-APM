@@ -1,0 +1,6 @@
+@Apm.IngestionService_HostAddress = http://localhost:5285
+
+GET {{Apm.IngestionService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
