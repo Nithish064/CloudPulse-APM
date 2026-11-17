@@ -1,31 +1,67 @@
-## .NET build artifacts
+## ==============================================================================
+## .NET / C# Build Artifacts & User State
+## ==============================================================================
 [Bb]in/
 [Oo]bj/
+[Aa]rtifacts/
 [Ll]og/
 [Ll]ogs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
-.vs/
-.vscode/
+*.userprefs
+TestResults/
+*.resharper
+*.dotCover
 
+## IDE & Editor files
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*~
+
+## ==============================================================================
 ## Node.js & Next.js
+## ==============================================================================
 node_modules/
 .next/
 out/
-.npm/
+dist/
+build/
+.turbo/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
 
-## OS files
+## Local environment files
+.env*.local
+.env
+
+## ==============================================================================
+## Operating System & Temporary Files
+## ==============================================================================
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 .DS_Store
-
-## Temporary logs & caches
 *.log
 *.tmp
+*.bak
+
+## ==============================================================================
+## AI Agent & Scratch Metadata
+## ==============================================================================
+.system_generated/
+.gemini/
+.claude/
+.copilot/
+scratch/
